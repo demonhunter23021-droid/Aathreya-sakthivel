@@ -1,0 +1,53 @@
+<!DOCTYPE html><html>
+<head>
+<title>Science Quest</title>
+<style>
+body{
+font-family:Arial;
+background:#dff6ff;
+text-align:center;
+padding:20px;
+}
+button{
+padding:10px;
+margin:10px;
+font-size:18px;
+border-radius:10px;
+}
+.card{
+background:white;
+padding:15px;
+margin:10px;
+border-radius:10px;
+}
+</style>
+</head><body><h1>📚 Science Quest</h1><div class="card">
+<h2>👨‍🎓 Student</h2>
+<button onclick="student()">Student Login</button>
+</div><div class="card">
+<h2>👩‍🏫 Teacher</h2>
+<button onclick="teacher()">Teacher Login</button>
+</div><div class="card">
+<h3>🏆 Points: 0</h3>
+<h3>🔥 Streak: 0</h3>
+</div><div class="card">
+<h3>📖 Textbook</h3>
+<p>Science textbook chapters will appear here.</p>
+</div><div class="card">
+<h3>🤖 AI Helper</h3>
+<button onclick="ai()">Ask AI</button>
+</div><script>
+function student(){
+alert("Student Login Coming Soon");
+}
+
+function teacher(){
+alert("Teacher Login Coming Soon");
+}
+
+function ai(){
+let q=prompt("Ask your science question");
+alert("AI Explanation: " + q);
+}
+</script></body>
+</html>
